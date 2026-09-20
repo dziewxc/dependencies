@@ -1,10 +1,10 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "timezone": "CET",
-  "schedule": ["30 20 * * *"],
+  "schedule": ["* 21 * * *"],
   "vulnerabilityAlerts": {
     "enabled": true,
-    "schedule": ["43 20 * * *"]
+    "schedule": ["* 21 * * *"]
   },
   "osvVulnerabilityAlerts": true,
   "packageRules": [
