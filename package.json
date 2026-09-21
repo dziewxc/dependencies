@@ -20,6 +20,7 @@
   "type": "module",
   "dependencies": {
     "@datadog/datadog-api-client": "1.60.0",
+    "lodash": "4.17.23",
     "next": "16.3.2"
   }
 }
