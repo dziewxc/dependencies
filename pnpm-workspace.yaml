@@ -1,6 +1,6 @@
 allowBuilds:
   core-js: false
-minimumReleaseAge: 43200
+minimumReleaseAge: 60
 minimumReleaseAgeExclude:
   - '@types/node@26.6.2'
   - react-dom@19.3.0
