@@ -169,6 +169,9 @@ importers:
       '@libp2p/peer-store':
         specifier: 11.0.22
         version: 11.0.22
+      paella-core:
+        specifier: 1.50.5
+        version: 1.50.5
 
 packages:
 
@@ -237,6 +240,9 @@ packages:
     resolution: {integrity: sha512-LndMvYuAPf4rC195lk7oSFuHOYFpOszIYrNYv0gHAvz+aEhE9qPZLhmrIz5pXP2BSsPOXvsuHDXEGaiQhIh9wA==}
     engines: {node: '>=16.0.0', npm: '>=7.0.0'}
 
+  core-js@3.50.0:
+    resolution: {integrity: sha512-BRWgOLKkFeCgRudR6zrs8p9XJZcE14grzKMMssoYrk6krtuEZ7MTKPIY5RzOnqsEKIR9kst7wNzphttraT+Yqw==}
+
   delay@6.0.0:
     resolution: {integrity: sha512-2NJozoOHQ4NuZuVIr5CWd0iiLVIRSDepakaovIN+9eIDHEhdCAEvSy2cuf1DCrPPQLvHmbqTHODlhHg8UCy4zw==}
     engines: {node: '>=16'}
@@ -249,6 +255,9 @@ packages:
 
   hashlru@2.3.0:
     resolution: {integrity: sha512-0cMsjjIC8I+D3M44pOQdsy0OHXGLVz6Z0beRuufhKa0KfaD2wGwAev6jILzXsd3/vpnNQJmWyZtIILqM1N+n5A==}
+
+  hls.js@1.7.3:
+    resolution: {integrity: sha512-MsPlx6yVW4Qv4C7mEVou4/gk/5cN2dVxOTnrNjPSmyH2f0Ln+/UkG10Ax1PE6OvrmTVPKgQYozTtBaPOuCzq7A==}
 
   interface-datastore@8.3.2:
     resolution: {integrity: sha512-R3NLts7pRbJKc3qFdQf+u40hK8XWc0w4Qkx3OFEstC80VoaDUABY/dXA2EJPhtNC+bsrf41Ehvqb6+pnIclyRA==}
@@ -322,6 +331,9 @@ packages:
   p-timeout@7.0.2:
     resolution: {integrity: sha512-prbX4Z3YszrFNgH+MW5Zoeq3baXrMtP/MQnFeET90UB/GtGcGDQ5Usg9OCy6ETjTTntOw1SL2z9fMPUppN3Guw==}
     engines: {node: '>=20'}
+
+  paella-core@1.50.5:
+    resolution: {integrity: sha512-RUIEDX/efdxP8rEXw47UZn6Ue5MHzivNtQZc6smMmGwR3Q5BuvNVi4QiRx3h4eLUycgv/xwYV2bHZ3fSfJxLag==}
 
   progress-events@1.1.0:
     resolution: {integrity: sha512-82DVc5tI36neVB3IjdXR11ztwGuoBc98em9ijzubeZKxI47OlV2Znq6mlPqE5xPDzO2Uw98GHiQSjj2favBCRQ==}
@@ -521,6 +533,8 @@ snapshots:
 
   any-signal@4.2.0: {}
 
+  core-js@3.50.0: {}
+
   delay@6.0.0: {}
 
   eventemitter3@5.0.4: {}
@@ -528,6 +542,8 @@ snapshots:
   get-iterator@2.0.1: {}
 
   hashlru@2.3.0: {}
+
+  hls.js@1.7.3: {}
 
   interface-datastore@8.3.2:
     dependencies:
@@ -602,6 +618,11 @@ snapshots:
       p-timeout: 7.0.2
 
   p-timeout@7.0.2: {}
+
+  paella-core@1.50.5:
+    dependencies:
+      core-js: 3.50.0
+      hls.js: 1.7.3
 
   progress-events@1.1.0: {}
 
