@@ -19,9 +19,6 @@
   "packageManager": "pnpm@12.5.1",
   "type": "module",
   "dependencies": {
-    "@datadog/datadog-api-client": "1.60.0",
-    "lodash": "4.17.23",
-    "next": "16.3.2",
     "paella-core": "1.50.5"
   }
 }

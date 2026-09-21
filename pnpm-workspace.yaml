@@ -1,5 +1,5 @@
 allowBuilds:
-  core-js: set this to true or false
+  core-js: false
 minimumReleaseAge: 43200
 minimumReleaseAgeExclude:
   - '@types/node@26.6.2'
