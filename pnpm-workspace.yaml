@@ -8,3 +8,5 @@ minimumReleaseAgeExclude:
   - react-dom@19.3.0
   - react@19.3.0
   - scheduler@0.28.0
+  # Renovate security update: @libp2p/peer-store@12.0.24
+  - "@libp2p/peer-store@12.0.24"
