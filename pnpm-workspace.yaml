@@ -1,5 +1,7 @@
 allowBuilds:
   core-js: false
+  esbuild: false
+  msw: false
 minimumReleaseAge: 60
 minimumReleaseAgeExclude:
   - '@types/node@26.6.2'
