@@ -175,6 +175,9 @@ importers:
       next:
         specifier: 16.3.2
         version: 16.3.2(@types/node@26.6.2)(react-dom@19.3.0(react@19.3.0))(react@19.3.0)
+      paella-core:
+        specifier: 1.50.5
+        version: 1.50.5
 
 packages:
 
@@ -439,6 +442,9 @@ packages:
     resolution: {integrity: sha512-FQN4MRfuJeHf7cBbBMJFXhKSDq+2kAArBlmRBvcvFE5BB1HZKXtSFASDhdlz9zOYwxh8lDdnvmMOe/+5cdoEdg==}
     engines: {node: '>= 0.8'}
 
+  core-js@3.50.0:
+    resolution: {integrity: sha512-BRWgOLKkFeCgRudR6zrs8p9XJZcE14grzKMMssoYrk6krtuEZ7MTKPIY5RzOnqsEKIR9kst7wNzphttraT+Yqw==}
+
   cross-fetch@3.2.0:
     resolution: {integrity: sha512-Q+xVJLoGOeIMXZmbUK4HYk+69cQH6LudR0Vu/pRm2YlU/hDV9CiS0gKUMaWY5f2NeUH9C1nV3bsTlCo0FsTV1Q==}
 
@@ -501,6 +507,9 @@ packages:
     resolution: {integrity: sha512-T2UbfbBEF32wiepXIsMlTW9+dDYC6wMh/t/vYA4tuOMKqWz/n3vr1NFSxQiyP+zk2mXsoMA/i/7qV6LKut1t1A==}
     engines: {node: '>= 0.4'}
 
+  hls.js@1.7.3:
+    resolution: {integrity: sha512-MsPlx6yVW4Qv4C7mEVou4/gk/5cN2dVxOTnrNjPSmyH2f0Ln+/UkG10Ax1PE6OvrmTVPKgQYozTtBaPOuCzq7A==}
+
   lodash@4.17.23:
     resolution: {integrity: sha512-LgVTMpQtIopCi79SJeDiP0TfWi5CNEc/L/aRdTh3yIvmZXTnheWpKjSZhnvMl8iXbC1tFg9gdHHDMLoV7CnG+w==}
 
@@ -554,6 +563,9 @@ packages:
     peerDependenciesMeta:
       encoding:
         optional: true
+
+  paella-core@1.50.5:
+    resolution: {integrity: sha512-RUIEDX/efdxP8rEXw47UZn6Ue5MHzivNtQZc6smMmGwR3Q5BuvNVi4QiRx3h4eLUycgv/xwYV2bHZ3fSfJxLag==}
 
   pako@2.2.0:
     resolution: {integrity: sha512-zJq6RP/5q+TO2OpFV3FHzlPnFjmkb7Nc99a5SNjJE+uu/PkpChs+NIZSSzbBoD+6kjiISXjfYdwj1ZRQ81dz/w==}
@@ -809,6 +821,8 @@ snapshots:
     dependencies:
       delayed-stream: 1.0.0
 
+  core-js@3.50.0: {}
+
   cross-fetch@3.2.0:
     dependencies:
       node-fetch: 2.7.0
@@ -881,6 +895,8 @@ snapshots:
     dependencies:
       function-bind: 1.1.2
 
+  hls.js@1.7.3: {}
+
   lodash@4.17.23: {}
 
   loglevel@1.9.2: {}
@@ -923,6 +939,11 @@ snapshots:
   node-fetch@2.7.0:
     dependencies:
       whatwg-url: 5.0.0
+
+  paella-core@1.50.5:
+    dependencies:
+      core-js: 3.50.0
+      hls.js: 1.7.3
 
   pako@2.2.0: {}
 
