@@ -19,6 +19,6 @@
   "packageManager": "pnpm@12.5.1",
   "type": "module",
   "dependencies": {
-    "paella-core": "1.50.5"
+    "@libp2p/peer-store": "11.0.22"
   }
 }
