@@ -21,6 +21,6 @@
   "dependencies": {
     "@libp2p/peer-store": "11.0.22",
     "@vendure/dashboard": "3.6.4",
-    "paella-core": "1.50.5"
+    "paella-core": "1.50.6"
   }
 }

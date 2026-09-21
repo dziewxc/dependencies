@@ -8,3 +8,5 @@ minimumReleaseAgeExclude:
   - react-dom@19.3.0
   - react@19.3.0
   - scheduler@0.28.0
+  # Renovate security update: paella-core@1.50.6
+  - paella-core@1.50.6
