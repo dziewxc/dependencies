@@ -7,6 +7,7 @@
     "schedule": ["* 21 * * *"]
   },
   "osvVulnerabilityAlerts": true,
+  "minimumReleaseAge": "5 days",
   "packageRules": [
     {
       "matchPackageNames": ["*"],
